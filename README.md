@@ -16,4 +16,4 @@ python main.py
 ## Colaboración
 1. Crea tu rama personal.
 2. Haz commits descriptivos.
-3. Abre un Pull Request siguiendo la plantilla.
+3. Abre un Pull Request siguiendo la plantilla
