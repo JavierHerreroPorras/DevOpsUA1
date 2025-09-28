@@ -20,4 +20,4 @@ python main.py
 
 ## Integrantes del grupo
 1. Javier Herrero Porras.
-2.Pedro
+2.PedroManolo
