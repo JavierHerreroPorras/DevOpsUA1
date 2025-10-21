@@ -5,3 +5,7 @@ def multiplica(a, b):
 # calc.py
 def cuadrado(a):
     return a ** 2
+
+# calc.py
+def divide(a, b):
+    return a / b
