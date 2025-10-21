@@ -20,3 +20,4 @@ python main.py
 
 ## Integrantes del grupo
 1. Javier Herrero Porras
+Adrian Garcia, Andres Merino y Daniel Muñoz - Grupo1
