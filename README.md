@@ -20,3 +20,9 @@ python main.py
 
 ## Integrantes del grupo
 1. Javier Herrero Porras
+
+## Grupo 3
+1. Raúl Gómez García
+2. Marcos Muñoz Larios
+3. Pablo Orti Rojas
+
