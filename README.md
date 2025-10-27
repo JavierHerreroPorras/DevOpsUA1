@@ -18,5 +18,8 @@ python main.py
 2. Haz commits descriptivos.
 3. Abre un Pull Request siguiendo la plantilla
 
-## Integrantes del grupo
-1. Javier Herrero Porras
+## Integrantes del grupo (group-4)
+1. Jesús Beltrán Pérez
+2. Marina Saavedra Urbano
+3. Pilar Girón Jordán
+
