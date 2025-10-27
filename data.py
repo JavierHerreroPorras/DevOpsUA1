@@ -6,3 +6,4 @@ def mostrar_datos():
     for n in numeros:
         print("Número:", n)
 print("Pepe nuevo si ejercicio 13")
+        print("Número: ", n)
