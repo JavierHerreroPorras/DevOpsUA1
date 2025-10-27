@@ -3,4 +3,6 @@ numeros = [10, 20, 30, 40, 50]
 
 def mostrar_datos():
     for n in numeros:
-        print("Número:", n)
+	if n % 2 == 0:
+        	print(f"[Comp2] Numero par: {n}")
+    print ("Procesamiento terminado (Comp2)")
