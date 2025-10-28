@@ -23,3 +23,5 @@ python main.py
 
 #Alumna colaboradora
 Pilar Girón
+
+Vamos a corregir posibles errores
