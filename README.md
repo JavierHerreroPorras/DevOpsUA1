@@ -20,3 +20,8 @@ python main.py
 
 ## Integrantes del grupo
 1. Javier Herrero Porras
+
+#Alumna colaboradora
+Pilar Girón
+
+Vamos a corregir posibles errores
