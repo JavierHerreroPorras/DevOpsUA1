@@ -1,2 +1,2 @@
-nuevo archivo
+.nuevo archivo
 y ahora cambio menor 
