@@ -20,3 +20,16 @@ python main.py
 
 ## Integrantes del grupo
 1. Javier Herrero Porras
+
+
+## Cómo ejecutar el programa
+
+1. Clona el repositorio:
+   git clone https://github.com/tu-usuario/repositorio.git
+   cd repositorio
+
+2. Ejecuta el programa:
+   python main.py
+
+3. Ejemplo de uso:
+   python main.py --input archivo.txt --output resultado.txt
