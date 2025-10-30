@@ -19,4 +19,6 @@ python main.py
 3. Abre un Pull Request siguiendo la plantilla
 
 ## Integrantes del grupo
-1. Javier Herrero Porras
+1. Darío López Castillejo
+2. Manuel Roldan Rodriguez
+3. Carlos Emmanuelli Sarrautte 
