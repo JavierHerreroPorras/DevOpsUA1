@@ -8,6 +8,8 @@ Este repositorio contiene un proyecto de ejemplo con varios ficheros de Python:
 ## Objetivo
 El repo se utilizará en prácticas de **Git y GitHub** (ramas, PR, conflictos, issues).
 Modificacion del ejercicio 23
+Ejercicio 21
+Ejercicio 18
 ## Ejecución
 ```bash
 python main.py
