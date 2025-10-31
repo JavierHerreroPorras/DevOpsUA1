@@ -22,3 +22,10 @@ python main.py
 1. David Granados Cruz
 2. Nicolás Simón Milano
 3. Javier Molero Moreno
+
+## Cómo ejecutar el programa
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/<tu-usuario>/DevOpsUA1.git
+   cd DevOpsUA1
