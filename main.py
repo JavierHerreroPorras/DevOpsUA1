@@ -1,6 +1,7 @@
 from utils import sumar, restar, multiplicar, dividir
 from data import numeros
 
+num = 1
 def menu():
     print("=== Calculadora simple ===")
     print("1. Sumar")
