@@ -1,3 +1,2 @@
-print("Hola de David y Nico")
-
+print("Saludos de David y Nico")
 
