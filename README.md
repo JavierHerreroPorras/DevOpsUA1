@@ -22,3 +22,8 @@ python main.py
 1. David Granados Cruz
 2. Nicolás Simón Milano
 3. Javier Molero Moreno
+
+## Ejercicio21 - Como ejecutar el programa
+1. Clonar el repositorio
+2. Instalar dependencias:
+3. Ejecuta la aplicación:
