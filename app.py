@@ -8,7 +8,7 @@ print("Hola")
 print("Nueva línea sin commit")
 
 print("Hola, soy Raul Gomez")
-
+print("Hola, soy Rocio Lopez")
 
 # app.py
 
@@ -22,3 +22,8 @@ if __name__ == "__main__":
 
 print("Hola desde la rama raul gomez")
 print("cambios de solete")
+print("Hola cambio de contenido")
+
+def suma(a,b):
+	return a+b
+
