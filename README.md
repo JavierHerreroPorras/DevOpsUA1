@@ -28,6 +28,23 @@ Incluye características modernas, diseño atractivo y un código fácil de mant
 ## ⚙️ Instalación y uso
 
 ```bash
+ chore/Darío-López
+python main.py
+```
+
+## Colaboración
+1. Crea tu rama personal.
+2. Haz commits descriptivos.
+3. Abre un Pull Request siguiendo la plantilla
+
+## Integrantes del grupo
+1. Darío López
+2. Carlos Emanuel
+3. Manuel Roldan
+
+
+Hola Javier
+
 # 1️⃣ Clonar el repositorio
 git clone https://github.com/usuario/nombre-del-proyecto.git
 
@@ -41,3 +58,4 @@ npm install   # o pip install -r requirements.txt
 npm start     # o python main.py
 
 
+ group-g7
