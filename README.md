@@ -40,3 +40,4 @@ npm install   # o pip install -r requirements.txt
 # 4️⃣ Ejecutar el proyecto
 npm start     # o python main.py
 
+
