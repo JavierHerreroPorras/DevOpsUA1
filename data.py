@@ -5,10 +5,17 @@ def mostrar_datos():
     for n in numeros:
         print("Número:", n)
  chore/CarlosEmmanuelli
+ chore/CarlosEmmanuelli
 	print("i have a dream")
 	print("what dream")
 	print("to have a dream")
 	print("Patito Juan")
+
+ docs/CarlosEmmanuelli
+	print("i have a dream")
+	print("what dream")
+	print("to have a dream")
+ group-g7-CarlosEmmanuelli
 
 	print("hola.py")
 	print("holaaa")
