@@ -11,3 +11,6 @@ def dividir(a, b):
     if b == 0:
         return "Error: división entre cero"
     return a / b
+
+
+print("Este programa lo que hace es suma, resta, multiplica y divide")
