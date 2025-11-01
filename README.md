@@ -38,6 +38,12 @@ python main.py
 3. Abre un Pull Request siguiendo la plantilla
 
 ## Integrantes del grupo
+ Shanks
+ Shanks
+1. Darío López Castillejo
+2. Manuel Roldan Rodriguez
+3. Carlos Emmanuelli Sarrautte 
+
 1. Darío López
 2. Carlos Emanuel
 3. Manuel Roldan
@@ -58,4 +64,5 @@ npm install   # o pip install -r requirements.txt
 npm start     # o python main.py
 
 
+ group-g7
  group-g7

@@ -1,3 +1,11 @@
+ Shanks
+Shanks
+print("Mejora ejercicio 12")
+print("Modificacion ejercicio 14") 
+
+print("Holaaa, me llamo manolo")
+group-g7
+
  group-g7-CarlosEmmanuelli
 print("Mejora ejercicio 12")
 print("Modificacion ejercicio 14") 
@@ -8,4 +16,5 @@ print("Esto va a ser un PR")
 
 
 print("Holaaa, me llamo manolo")
+ group-g7
  group-g7
