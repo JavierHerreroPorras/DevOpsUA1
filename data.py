@@ -6,3 +6,4 @@ def mostrar_datos():
         print("Número:", n)
 	print("hola.py")
 	print("holaaa")
+	print("patos a la pequinesa")
