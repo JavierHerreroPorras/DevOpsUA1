@@ -19,6 +19,7 @@ python main.py
 3. Abre un Pull Request siguiendo la plantilla
 
 ## Integrantes del grupo
+ ejercicio23
 1. David Granados Cruz
 2. Nicolás Simón Milano
 3. Javier Molero Moreno
@@ -34,3 +35,8 @@ pip install -r requirements.txt
 
 3. Ejecuta el programa principal:
 python main.py
+
+1. Darío López Castillejo
+2. Manuel Roldan Rodriguez
+3. Carlos Emmanuelli Sarrautte 
+ group-g7-Manuel-Roldan
