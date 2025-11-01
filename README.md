@@ -19,6 +19,7 @@ python main.py
 3. Abre un Pull Request siguiendo la plantilla
 
 ## Integrantes del grupo
-1. David Granados Cruz
-2. Nicolás Simón Milano
-3. Javier Molero Moreno
+GROUP-6
+Francisco Pérez
+Pablo Polo
+Manuel Melgarejo
