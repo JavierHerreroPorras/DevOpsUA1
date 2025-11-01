@@ -13,4 +13,4 @@ def dividir(a, b):
     return a / b
 
 
-print("Este programa suma, resta, multiplica y divide")
+print("Este programa lo que hace es suma, resta, multiplica y divide")
