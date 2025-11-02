@@ -22,3 +22,10 @@ python main.py
 1. David Granados Cruz
 2. Nicolás Simón Milano
 3. Javier Molero Moreno
+
+## Cómo ejecutar el programa
+1. Clona el repositorio  
+2. Instala las dependencias con `pip install -r requirements.txt`  
+3. Ejecuta con `python app.py`
+
+### Ejemplo de uso
