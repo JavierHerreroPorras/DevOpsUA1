@@ -42,3 +42,15 @@ GROUP-6
 Francisco Pérez
 Pablo Polo
 Manuel Melgarejo
+
+
+## Uso del programa
+
+Para ejecutar el programa, utiliza el comando: python app.py
+
+
+Ejemplo de uso: python.app.py --opcion valor
+undefined
+
+
+
