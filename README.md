@@ -1,4 +1,5 @@
 # Calculadora simple en Python
+En main.py se encuentra el programa principal de la calculadora
 
 Este repositorio contiene un proyecto de ejemplo con varios ficheros de Python:
 - `main.py`: programa principal con un menú.
