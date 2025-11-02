@@ -12,6 +12,8 @@ El repo se utilizará en prácticas de **Git y GitHub** (ramas, PR, conflictos, 
 ```bash
 python main.py
 ```
+1. abrir en una terminal python el main.py
+2. seguir los pasos que se nos indica para hacer funcionar la calculadora
 
 ## Colaboración
 1. Crea tu rama personal.
