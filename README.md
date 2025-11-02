@@ -1,5 +1,5 @@
 # Calculadora simple en Python
-
+Para ejecutar el programa haz click
 Este repositorio contiene un proyecto de ejemplo con varios ficheros de Python:
 - `main.py`: programa principal con un menú.
 - `utils.py`: funciones matemáticas básicas.
