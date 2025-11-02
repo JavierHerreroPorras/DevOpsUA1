@@ -1,5 +1,8 @@
 # Changelog
 
-## [Unreleased]
-- Añadir nuevas operaciones matemáticas
-- Mejorar el manejo de errores
+## [v0.1.0]
+### Añadido
+- Funciones `saludar(nombre)` y `despedida()` en `app.py` para mejorar la interacción con el usuario.
+
+# Autor
+- Rocío López
