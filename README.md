@@ -22,3 +22,9 @@ python main.py
 1. David Granados Cruz
 2. Nicolás Simón Milano
 3. Javier Molero Moreno
+
+## Cómo ejecutar el programa
+
+1. Abre una terminal en la carpeta del proyecto.
+2. Ejecuta el siguiente comando: python main.py
+3. El programa mostrará un mensaje de bienvenida o ejecutará las funciones principales.
