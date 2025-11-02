@@ -29,4 +29,4 @@ while True:
     elif opcion == "4":
         print("Resultado:", dividir(a, b))
     else:
-        print("Opción no válida")
+        print("Opción incorrecta")
