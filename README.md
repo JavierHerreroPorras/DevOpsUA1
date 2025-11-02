@@ -18,6 +18,25 @@ python main.py
 2. Haz commits descriptivos.
 3. Abre un Pull Request siguiendo la plantilla
 
+# 📁 Repositorio de Prácticas - 2º DAW
+
+Este repositorio contiene todas mis **actividades, ejercicios y proyectos** realizados durante el **2º curso de Desarrollo de Aplicaciones Web (DAW)**.
+
+## 📚 Estructura del repositorio
+
+- **Modulo1-LenguajesDeMarcas** → ejercicios relacionados con XML, HTML, CSS…
+- **Modulo2-EntornosDeDesarrollo** → prácticas de entornos, control de versiones, etc.
+- **Modulo3-DesarrolloWebServidor** → proyectos con PHP, bases de datos, etc.
+- **Modulo4-DesarrolloWebCliente** → ejercicios con JavaScript, frameworks, etc.
+
+---
+
+👨‍💻 **Autor:** Pablo Polo Castro 
+📅 Curso: 2º DAW  
+🏫 Centro educativo: [nombre del centro, si lo deseas]
+
+---
+
 ## Integrantes del grupo
 GROUP-6
 Francisco Pérez
