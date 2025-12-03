@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localizaciones del Festival FLORA</title>
+</head>
+<body>
+
+    <header>
+        <h1>Localizaciones del Festival FLORA Córdoba</h1>
+        <p>El Festival FLORA convierte a Córdoba en un museo efímero al aire libre. Cada localización alberga instalaciones florales únicas que dialogan con la arquitectura y el patrimonio histórico de la ciudad.<br> Dirección: Pl. de Orive, 2, Centro, 14001 Córdoba</p>
+        <a href="{% url 'home' %}">Volver al inicio</a>
+        <hr>
+    </header>
+
+    <section>
+        <ul>
+            {% for venue in venues %}
+                <li>
+                    <h2>{{ venue.name }}</h2>
+                    <p><strong>Dirección:</strong> {{ venue.address }}</p>
+                    <p><strong>Capacidad máxima:</strong> {{ venue.max_capacity }}</p>
+                    {% if venue.description %}
+                        <p><strong>Descripción:</strong> {{ venue.description }}</p>
+                    {% else %}
+                        <p>Este espacio acoge diversas instalaciones florales y eventos artísticos durante el festival.</p>
+                    {% endif %}
+                    <hr>
+                </li>
+            {% empty %}
+            {% endfor %}
+        </ul>
+    </section>
+
+</body>
+</html>

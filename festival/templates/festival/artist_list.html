@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Artistas</title>
+</head>
+<body>
+
+    <header>
+        <h1>Listado de Artistas</h1>
+        <a href="{% url 'home' %}">Volver al inicio</a>
+    </header>
+
+    <section>
+        <form method="get">
+            <label for="country">Filtrar por país:</label>
+            <input type="text" name="country" id="country" value="{{ country|default:'' }}">
+            <button type="submit">Filtrar</button>
+        </form>
+
+        <ul>
+            {% for artist in artists %}
+                <li>
+                    <a href="{% url 'artist_detail' artist.id %}">
+                        {{ artist.name }} ({{ artist.country }})
+                    </a>
+                </li>
+            {% empty %}
+                <li>No hay artistas registrados.</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+</body>
+</html>

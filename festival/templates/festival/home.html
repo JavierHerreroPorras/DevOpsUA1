@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor del Festival FLORA Córdoba</title>
+</head>
+<body>
+
+    <header>
+        <h1>Gestor del Festival FLORA Córdoba</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{% url 'artist_list' %}">Artistas</a></li>
+            <li><a href="{% url 'installation_list' %}">Instalaciones</a></li>
+            <li><a href="{% url 'venue_list' %}">Localizaciones</a></li>
+            <li><a href="{% url 'edition_list' %}">Ediciones</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p>Este es sistema gestor del Festival FLORA de Córdoba de Pablo Orti.</p>
+        <p>Puedes investigar sobre este festival usando los enlaces de arriba.</p>
+    </main>
+
+</body>
+</html>

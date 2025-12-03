@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Instalaciones</title>
+</head>
+<body>
+    <h1>Listado de Instalaciones</h1>
+    <a href="{% url 'home' %}">Volver al inicio</a>
+    <p>
+        El festival FLORA convierte cada año a Córdoba en un museo efímero al aire libre. Artistas florales de todo el mundo transforman patios históricos y espacios emblemáticos de la ciudad en instalaciones florales contemporáneas, diseñadas específicamente para dialogar con la arquitectura y el patrimonio cordobés.
+
+Cada obra es única y pasajera: flores, plantas, materiales naturales y estructuras innovadoras se combinan para crear paisajes sensoriales que exploran la relación entre naturaleza, arte y memoria. Mientras duran, estas instalaciones no solo embellecen la ciudad, sino que invitan al visitante a reflexionar sobre el paso del tiempo, la fragilidad de lo vivo y la belleza de lo efímero.
+
+Las instalaciones de FLORA representan un puente entre tradición y modernidad — entre los patios clásicos de Córdoba y la creatividad contemporánea —, ofreciendo una experiencia cultural y estética singular, accesible a todo el público.
+    </p>
+
+    <ul>
+        {% for installation in installations %}
+            <li>
+                {{ installation.title }} - Apertura: {{ installation.opening_date }}
+            </li>
+        {% empty %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
