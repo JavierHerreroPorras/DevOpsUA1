@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Artista</title>
+</head>
+<body>
+    <header>
+        <h1>{{ artist.name }}</h1>
+        <p><strong>País:</strong> {{ artist.country }}</p>
+        {% if artist.short_bio %}
+            <p><strong>Biografía:</strong> {{ artist.short_bio }}</p>
+        {% endif %}
+        {% if artist.website %}
+            <p><strong>Sitio web:</strong> <a href="{{ artist.website }}" target="_blank">{{ artist.website }}</a></p>
+        {% endif %}
+        <a href="{% url 'artist_list' %}">Volver al listado de artistas</a>
+        <hr>
+    </header>
+
+    <section>
+        <h2>Instalaciones del artista</h2>
+        <ul>
+            {% for inst in installations %}
+                <li>
+                    <strong>{{ inst.title }}</strong> - Apertura: {{ inst.opening_date }}
+                    <p>{{ inst.short_description }}</p>
+                </li>
+            {% empty %}
+            {% endfor %}
+        </ul>
+    </section>
+
+</body>
+</html>

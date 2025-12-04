@@ -3,26 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado de Instalaciones</title>
+    <title>Listado de Instalaciones - Festival FLORA</title>
 </head>
 <body>
-    <h1>Listado de Instalaciones</h1>
-    <a href="{% url 'home' %}">Volver al inicio</a>
-    <p>
-        El festival FLORA convierte cada año a Córdoba en un museo efímero al aire libre. Artistas florales de todo el mundo transforman patios históricos y espacios emblemáticos de la ciudad en instalaciones florales contemporáneas, diseñadas específicamente para dialogar con la arquitectura y el patrimonio cordobés.
 
-Cada obra es única y pasajera: flores, plantas, materiales naturales y estructuras innovadoras se combinan para crear paisajes sensoriales que exploran la relación entre naturaleza, arte y memoria. Mientras duran, estas instalaciones no solo embellecen la ciudad, sino que invitan al visitante a reflexionar sobre el paso del tiempo, la fragilidad de lo vivo y la belleza de lo efímero.
+    <header>
+        <h1>Listado de Instalaciones del Festival FLORA</h1>
+        <a href="{% url 'home' %}">Volver al inicio</a>
+        <hr>
+    </header>
 
-Las instalaciones de FLORA representan un puente entre tradición y modernidad — entre los patios clásicos de Córdoba y la creatividad contemporánea —, ofreciendo una experiencia cultural y estética singular, accesible a todo el público.
-    </p>
+    <section>
+        <p>
+            El festival FLORA transforma Córdoba en un museo efímero cada año. 
+            Artistas nacionales e internacionales llenan patios históricos y espacios emblemáticos 
+            con instalaciones florales que combinan creatividad, naturaleza y materiales innovadores.
+        </p>
 
-    <ul>
-        {% for installation in installations %}
+        <ul>
             <li>
-                {{ installation.title }} - Apertura: {{ installation.opening_date }}
+                <h2>Jardín Efímero en el Patio de los Naranjos</h2>
+                <p><strong>Apertura:</strong> 12 de mayo de 2023</p>
+                <p><strong>Descripción:</strong> Un recorrido sensorial entre flores autóctonas y estructuras de madera que conecta aromas y colores.</p>
+                <p><strong>Materiales:</strong> Flores frescas, madera, tierra, agua y macetas artesanales.</p>
             </li>
-        {% empty %}
-        {% endfor %}
-    </ul>
+
+            <li>
+                <h2>Arco Floral de Luz y Color</h2>
+                <p><strong>Apertura:</strong> 14 de mayo de 2023</p>
+                <p><strong>Descripción:</strong> Un arco gigante cubierto de flores y luces LED que cambia de color con el movimiento de los visitantes.</p>
+                <p><strong>Materiales:</strong> Flores frescas, luces LED, estructura metálica y soportes de madera.</p>
+            </li>
+
+            <li>
+                <h2>Túnel Verde Interactivo</h2>
+                <p><strong>Apertura:</strong> 16 de mayo de 2023</p>
+                <p><strong>Descripción:</strong> Instalación sensorial donde los visitantes interactúan con sensores que producen sonidos y efectos visuales.</p>
+                <p><strong>Materiales:</strong> Plantas, sensores de movimiento, altavoces, estructuras metálicas y telas verdes.</p>
+            </li>
+
+            <li>
+                <h2>Pared de Flores Recicladas</h2>
+                <p><strong>Apertura:</strong> 18 de mayo de 2023</p>
+                <p><strong>Descripción:</strong> Una pared artística construida con flores preservadas y materiales reciclados, promoviendo la sostenibilidad.</p>
+                <p><strong>Materiales:</strong> Flores preservadas, botellas de vidrio, cartón, hilo y pegamento ecológico.</p>
+            </li>
+        </ul>
+
+    </section>
+
 </body>
 </html>

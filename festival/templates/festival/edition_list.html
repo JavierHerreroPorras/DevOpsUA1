@@ -9,32 +9,60 @@
 
     <header>
         <h1>Ediciones del Festival FLORA Córdoba</h1>
-        <p>2017 – Primera edición
-El festival FLORA se celebra por primera vez en Córdoba, organizado por Zizai Hotels y el ayuntamiento. Los artistas se concentran en patios históricos del centro, mostrando instalaciones florales que sorprenden por su frescura y creatividad. La ciudad recibe a miles de visitantes y la propuesta es un éxito rotundo.<br><br>2018 – Edición temática “Naturaleza Urbana”
-La segunda edición apuesta por integrar la flora con espacios urbanos, llevando jardines efímeros a plazas y calles emblemáticas. Se incluyen talleres interactivos y actividades educativas para niños y adultos.<br><br>2019 – Edición temática “Colores y Texturas”
-Este año, los artistas internacionales exploran nuevas combinaciones de materiales y técnicas. Las instalaciones destacan por su riqueza cromática y por la integración de elementos reciclados en las composiciones florales.<br><br>2020 – Edición digital “FLORA en Casa”
-Debido a la pandemia, la cuarta edición se adapta a un formato híbrido: algunas instalaciones se exponen en patios reducidos y otras se transmiten en línea. Se fomenta la participación virtual del público con talleres online.<br><br>2021 – Edición temática “Resiliencia y Vida”
-El festival regresa a la presencialidad con medidas de seguridad, centrando sus obras en la resiliencia y la recuperación post-pandemia. Los patios se llenan de instalaciones que celebran la naturaleza y la vida.<br><br>2022 – Edición temática “Patrimonio Vivo”
-Se prioriza la intervención en edificios históricos y monumentos emblemáticos de Córdoba. Los artistas crean obras que dialogan con la arquitectura, integrando flores, agua y estructuras efímeras. <br><br>2023 – Edición temática “Flora y Tecnología”
-La séptima edición incorpora instalaciones interactivas y tecnología: sensores que reaccionan al movimiento de los visitantes, luces LED integradas en jardines efímeros y esculturas florales que cambian de color. <br><br>2024 – Edición temática “Conexión Natural”
-Los patios y plazas de Córdoba exploran la relación entre la ciudad y la naturaleza circundante. Se fomentan experiencias sensoriales y rutas guiadas para descubrir las instalaciones. <br><br>2025 – Edición temática “Futuro Verde”
-La edición más reciente centra sus obras en sostenibilidad y ecología. Los artistas utilizan materiales reciclables y locales, promoviendo la conciencia ambiental y la creatividad responsable en cada instalación floral.</p>
+        <p>
+            Desde 2017, el Festival FLORA ha transformado patios históricos y espacios emblemáticos de Córdoba en exposiciones florales efímeras, únicas y sorprendentes. Cada edición tiene un tema especial que inspira a artistas nacionales e internacionales a crear instalaciones innovadoras.
+        </p>
         <a href="{% url 'home' %}">Volver al inicio</a>
         <hr>
     </header>
 
     <section>
         <ul>
-            {% for edition in editions %}
-                <li>
-                    <h2>Año: {{ edition.year }}</h2>
-                    <p><strong>Tema:</strong> {{ edition.theme }}</p>
-                    <p><strong>Fechas:</strong> {{ edition.start_date }} al {{ edition.end_date }}</p>
-                    <p>En esta edición se realizaron instalaciones florales en diferentes patios y espacios de Córdoba, mostrando la creatividad de artistas nacionales e internacionales.</p>
-                    <hr>
-                </li>
-            {% empty %}
-            {% endfor %}
+            <li>
+                <h2>2017 - Primera Floración</h2>
+                <p><strong>Fechas:</strong> 10 mayo - 20 mayo</p>
+                <p>Primera edición del festival, centrada en patios históricos y pequeñas instalaciones que combinaban flores autóctonas y creatividad urbana.</p>
+            </li>
+            <li>
+                <h2>2018 - Naturaleza Urbana</h2>
+                <p><strong>Fechas:</strong> 12 mayo - 22 mayo</p>
+                <p>Los artistas llevaron la naturaleza a plazas y calles del centro de Córdoba, integrando jardines efímeros y talleres para el público.</p>
+            </li>
+            <li>
+                <h2>2019 - Colores y Texturas</h2>
+                <p><strong>Fechas:</strong> 15 mayo - 25 mayo</p>
+                <p>Composiciones florales con combinaciones cromáticas intensas y el uso de materiales reciclados que sorprendieron a los visitantes.</p>
+            </li>
+            <li>
+                <h2>2020 - FLORA en Casa</h2>
+                <p><strong>Fechas:</strong> 10 mayo - 20 mayo</p>
+                <p>Edición adaptada a formato híbrido por la pandemia, con exposiciones en patios reducidos y actividades online para interactuar desde casa.</p>
+            </li>
+            <li>
+                <h2>2021 - Resiliencia y Vida</h2>
+                <p><strong>Fechas:</strong> 12 mayo - 22 mayo</p>
+                <p>Regreso a la presencialidad con instalaciones que celebraban la vida y la resiliencia, integrando arte floral y experiencias sensoriales.</p>
+            </li>
+            <li>
+                <h2>2022 - Patrimonio Vivo</h2>
+                <p><strong>Fechas:</strong> 15 mayo - 25 mayo</p>
+                <p>Se priorizó la intervención en edificios históricos y monumentos, creando un diálogo entre arquitectura y arte floral contemporáneo.</p>
+            </li>
+            <li>
+                <h2>2023 - Flora y Tecnología</h2>
+                <p><strong>Fechas:</strong> 10 mayo - 20 mayo</p>
+                <p>Instalaciones interactivas con sensores y luces LED, combinando naturaleza y tecnología para experiencias únicas.</p>
+            </li>
+            <li>
+                <h2>2024 - Conexión Natural</h2>
+                <p><strong>Fechas:</strong> 12 mayo - 22 mayo</p>
+                <p>Exploración de la relación entre ciudad y naturaleza, con rutas guiadas y experiencias sensoriales en patios y plazas de Córdoba.</p>
+            </li>
+            <li>
+                <h2>2025 - Futuro Verde</h2>
+                <p><strong>Fechas:</strong> 15 mayo - 25 mayo</p>
+                <p>La edición más reciente se centra en sostenibilidad, usando materiales locales y reciclables, fomentando la conciencia ecológica y la creatividad responsable.</p>
+            </li>
         </ul>
     </section>
 
