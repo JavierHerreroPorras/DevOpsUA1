@@ -10,6 +10,7 @@ El repo se utilizará en prácticas de **Git y GitHub** (ramas, PR, conflictos, 
 
 ## Ejecución
 ```bash
+Es vital instalar la versión 3.13 de python
 python main.py
 ```
 
